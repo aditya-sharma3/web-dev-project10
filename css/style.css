@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    background-image: url(../assests/background-img.jpg);
+    min-height: 100%;
+    background-size: cover;
+    margin: 10px 10px;
+    font-family: 'Nunito';
+}
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+}
+
+.call-icon{
+    width: 30px;
+    margin-bottom: 0px;
+}
+
+/*---------navigation menu------------*/
+
+.logo{
+    flex: 1;
+}
+
+.nav-items{
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.nav-item{
+    display: inline;
+    padding: 30px;
+    list-style-type: none;
+}
+
+.nav-option{
+    border-bottom-style: solid; /*with this we put horizontal line*/
+    border-bottom-color: #ffffff;
+    border-bottom-width: 3px;
+    flex: 3;
+}
+
+.telephone{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 24px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    border-bottom-width: 3px;
+    color: #ffffff;
+}
+
+/*----------------Main section-----------*/
+
+.puzzle-img{
+    width: 40px;
+}
+
+.idea-img{
+    width: 40px;
+}
+
+.main-container{
+    margin-top: 200px;
+    display: flex;
+}
+
+button{
+    font-family: 'Nunito';
+    font-size: 30px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: transparent;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    margin-top: 50px;
+}
+
+/* p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+} */
+
+.puzzle-img{
+    background-color: #ffffff;
+    padding: 5px 30px;
+    border-radius: 25px;
+}
+
+.idea-img{
+    background-color: #ffffff;
+    padding: 5px 30px;
+    border-radius: 25px;
+}
+
+.puzzle, .idea{
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 40px;
+}
+
+.idea{
+    padding: 50px 50px;
+    background-color: rgba(255, 255, 255, 0.236);
+    margin-top: 180px;
+}
+
+.puzzle{
+    padding: 50px 50px;
+    background-color: rgba(255, 255, 255, 0.236);
+    margin-left: 100px;
+    word-break: normal;
+}
+
+h1{
+    margin-top: 50px;
+    color: #dff9fb;
+    font-size: 65px;
+}
